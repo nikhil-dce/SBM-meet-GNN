@@ -18,14 +18,14 @@ The python notebook `Community_Detection_NIPS12.ipynb` demonstrates how DGLFRM e
 ---------------------------------
 
 ---------------------------------
-```python train.py --dataset cora --hidden 32_50 --alpha0 10 --split_idx 1 --early_stopping 0 --deep_decoder 1 --model dglfrm --epochs 500```
+```python train.py --dataset cora --hidden 32_50 --alpha0 10 --split_idx 1 --deep_decoder 1 --model dglfrm --epochs 500```
 - Test ROC score: 0.9263454662638759
 - Test AP score: 0.9348284353038857
 - Test Z Activated: 14.575701624815363
 ---------------------------------
 
 ---------------------------------
-```python train.py --dataset cora --hidden 32_50 --alpha0 10 --split_idx 2 --early_stopping 0 --deep_decoder 1 --model dglfrm --epochs 500```
+```python train.py --dataset cora --hidden 32_50 --alpha0 10 --split_idx 2 --deep_decoder 1 --model dglfrm --epochs 500```
 - Test ROC score: 0.930140532677538
 - Test AP score: 0.9292958502878256
 - Test Z Activated: 14.235524372230428
@@ -34,7 +34,7 @@ The python notebook `Community_Detection_NIPS12.ipynb` demonstrates how DGLFRM e
 ### DGLFRM-B
 
 ---------------------------------
-```python train.py --dataset cora --hidden 32_100 --alpha0 20 --split_idx 0 --early_stopping 0 --deep_decoder 1 --model dglfrm_b --epochs 500```
+```python train.py --dataset cora --hidden 32_100 --alpha0 10 --split_idx 0 --deep_decoder 1 --model dglfrm_b --epochs 500```
 - Test ROC score: 0.9164509287830943
 - Test AP score: 0.9180554129495934
 - Test Z Activated: 24.823929098966026
